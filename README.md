@@ -1,4 +1,4 @@
 # DiscordPresence
 For Account Discord no bot
 
-<img src="Preview.gif" width="250" height="150" align="left">
+<img src="Preview.gif" width="25" height="75" align="left">
