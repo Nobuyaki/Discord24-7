@@ -14,3 +14,6 @@ statuses = [
 	"Discord 24/7"
 ]
 ```
+
+### Install
+Clone In [replit](http://replit.com)
