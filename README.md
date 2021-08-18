@@ -1,19 +1,12 @@
-### DiscordPresence
-For Account Discord no bot
+### SelfBot-Discord
 
-### Preview
-<img src="Preview.gif">
-
-### Change Presence
-[Edit Me](https://github.com/Nobuyaki/DiscordPresence/blob/cd7ee40aea63612faead010870add51278834456/main.py#L19)
+### Information
+[Activity](https://github.com/Nobuyaki/SelfBot-Discord/blob/08aaf46f83b6ec723d55d6696bb00cb5fea42c80/main.py#L9)
 ```bash
-statuses = [
-	f"In Night Raid Server's",
-	f"In {len(client.guilds)} Server's",
-	"Mobile Legends",
-	"Discord 24/7"
-]
+game = [""] || playing
+anime = [""] || watching
+music = [""] || listening
 ```
 
 ### Install
-Clone In [replit](http://replit.com)
+Clone In [replit.com](http://replit.com)
