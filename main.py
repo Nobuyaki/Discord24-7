@@ -42,33 +42,5 @@ async def ch_pr():
    		await asyncio.sleep(10)
 client.loop.create_task(ch_pr())
 
-#command Bot
-@client.command()
-async def ping(ctx):
-	await ctx.message.delete()
-	embed = discord.Embed(title="PING", color=0xdfa3ff)
-	await ctx.send(embed=embed)
-
-@client.command()
-async def avatar(ctx, *, user : discord.Member=None):
-	await ctx.message.delete()
-    embed = discord.Embed(title="", color=0xdfa3ff, description="AVATAR")
-    embed.set_author(name=str(user), icon_url=user.avatar_url)
-    embed.set_image(url=user.avatar_url)
-    await ctx.send(embed=embed)
-
-@client.command()
-async def image(ctx,photolink): 
-    await ctx.message.delete()
-    embed=discord.Embed(color=0xdfa3ff)
-    embed.set_image(url=photolink)
-    await ctx.send(embed=embed)
-
-@client.command()
-async def embed(ctx, *, description):
-    embed = discord.Embed(color=0xdfa3ff, description=description)
-    embed.set_footer(text="Nobuyaki#9099")
-    await ctx.send(embed=embed)
-
 keep_alive.keep_alive()
 client.run(os.getenv("TOKEN"), bot=False)
