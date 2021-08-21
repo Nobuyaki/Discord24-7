@@ -1,4 +1,4 @@
-import discord, os, keep_alive, asyncio, datetime, pytz, random
+import discord, os, keep_alive, asyncio, datetime, random
 from discord.ext import tasks, commands
 
 client = commands.Bot(command_prefix="n!", case_insensitive=True, self_bot=True)
